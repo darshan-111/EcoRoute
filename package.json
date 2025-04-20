@@ -1,0 +1,31 @@
+{
+  "name": "ecoroute",
+  "version": "1.0.0",
+  "description": "THis is the official backend repo for ecoroute application which is being developed in the 48hr hackathon Kriyeta",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshan-111/EcoRoute.git"
+  },
+  "author": "Darshan Sagare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darshan-111/EcoRoute/issues"
+  },
+  "homepage": "https://github.com/darshan-111/EcoRoute#readme",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.9"
+  }
+}
